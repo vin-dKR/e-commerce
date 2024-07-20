@@ -29,7 +29,7 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
                     ))}
                 </ul>
             </Gutter>
-            
+
             <div className={classes.footer}>
                 <Gutter>
                     <div className={classes.wrap}>
