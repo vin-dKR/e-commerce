@@ -48,6 +48,7 @@ export const Button: React.FC<Props> = ({
   const content = (
     <div className={classes.content}>
       <span className={classes.label}>{label}</span>
+      { children }
     </div>
   )
 
