@@ -34,5 +34,6 @@ export const CustomHero: React.FC<Page['hero']> = ({ richText, media, links }) =
         </div>
       </div>
     </section>
+
   )
 }
