@@ -52,7 +52,6 @@ export const ARCHIVE_BLOCK = `
         slug
         title
         priceJSON
-        ${META}
       }
     }
   }
