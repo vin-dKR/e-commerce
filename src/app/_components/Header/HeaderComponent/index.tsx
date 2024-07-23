@@ -26,7 +26,6 @@ const HeaderComponent = ({ header }: { header: Header }) => {
         </Link>
 
         <HeaderNav header={header} />
-        <MObileNav header={header} />
       </Gutter>
     </nav>
   )
