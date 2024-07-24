@@ -24,7 +24,6 @@ const HeaderComponent = ({ header }: { header: Header }) => {
         <Link href='/'>
           <Image src="/logo-white.svg" alt="logo" width={360} height={60} />
         </Link>
-
         <HeaderNav header={header} />
       </Gutter>
     </nav>
