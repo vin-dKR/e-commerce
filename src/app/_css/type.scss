@@ -50,24 +50,24 @@
 
 %h4 {
   margin: 20px 0;
-  font-size: 26px;
-  line-height: 32px;
-  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  // font-weight: bold;
 
   @include mid-break {
-    font-size: 22px;
+    font-size: 17px;
     line-height: 30px;
   }
 }
 
 %h5 {
   margin: 20px 0;
-  font-size: 22px;
-  line-height: 30px;
-  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  // font-weight: bold;
 
   @include mid-break {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 24px;
   }
 }
@@ -76,35 +76,35 @@
   margin: 20px 0;
   font-size: inherit;
   line-height: inherit;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 %body {
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 14px;
+  line-height: 22px;
 
   @include mid-break {
-    font-size: 15px;
+    font-size: 11px;
     line-height: 24px;
   }
 }
 
 %large-body {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 32px;
 
   @include mid-break {
-    font-size: 22px;
+    font-size: 16px;
     line-height: 30px;
   }
 }
 
 %label {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
 
   @include mid-break {
-    font-size: 13px;
+    font-size: 9px;
   }
 }

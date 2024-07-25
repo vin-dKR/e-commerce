@@ -23,9 +23,9 @@
 
 .title {
   margin: 0;
-  font-size: 20px;
-  font-weight: 700;
-
+  font-size: 18px;
+  font-weight: 600;
+  width: 90%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -57,7 +57,7 @@
 .description {
   margin: 0;
   line-height: 24px;
-
+  width: 90%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -73,8 +73,8 @@
   text-decoration: none;
   display: block;
   position: relative;
-  min-height: 262px;
-  background-color: var(--color-dark-50);
+  min-height: 252px;
+  // background-color: var(--color-dark-50);
 }
 
 .image {
