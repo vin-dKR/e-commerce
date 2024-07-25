@@ -29,7 +29,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       </head>
       <body className={poppins.variable}>
         <Providers>
-          <AdminBar />
+          {/* <AdminBar /> */}
           {/* @ts-expect-error */}
           <Header />
             <main className='main' >
